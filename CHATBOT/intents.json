@@ -1,0 +1,37 @@
+{"intents": [
+    {
+        "tag": "greet",
+        "patterns":["hello", "hi", "hey", "howdy", "greetings", "good morning", "good afternoon", "good evening"],
+        "responses":["Hello", "Hi", "Hey", "Howdy", "Greetings", "Good morning", "What can I do for you ?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns":["bye", "goodbye", "see you later", "see you", "good bye", "good night"],
+        "responses":["Goodbye", "Bye", "See you later", "See you", "Good bye", "Good night"]
+    },
+    {
+        "tag": "name",
+        "patterns":["what is your name ?", "what's your name ?", "what is your name", "what's your name", "what is your name ?"],
+        "responses":["My name is Dr ENSIT", "My name is Dr ENSIT", "My name is Dr ENSIT", "My name is Dr ENSIT", "My name is Dr ENSIT"]
+    },
+    {
+        "tag": "years",
+        "patterns":["how many years to graduate from ENSIT", "How it takes to graduate from ENSIT"],
+        "responses":["It takes 2 and a half years to graduate from ENSIT with 6 months of internship","2 and a half years and 6 months of internship"]
+    },
+    {
+        "tag": "perpose",
+        "patterns":["what is your purpose ?", "what's your purpose ?"],
+        "responses":["I am here to answer your questions about ENSIT", "I am here to help you with your questions about  ENSIT","I am here to help you","I'll respond to your questions about ENSIT"]
+    },
+    {
+        "tag": "departments",
+        "patterns":["What departments do you have ?", "can you tell me about the departments in ENSIT ?", "How many departments are in ENSIT ?","Departments? ","What can I study at ENSIT"],
+        "responses":["There are 6 departments in ENSIT : civil, mechanical, electrical , industrial engineering, computer science and applied mathematics","6 departments :civil, mechanical, electrical , industrial engineering, computer science and applied mathematics"]
+    },
+    {
+        "tag": "abbreviation",
+        "patterns":["ENSIT is the abbreviation of what ?", "what's the full name of ENSIT ?"],
+        "responses":["ENSIT stands for The Higher National Engineering School of Tunis","ENSIT is the abbreviation in french for 'The Higher National Engineering School of Tunis'","ENSIT is the abbreviation in french for 'Ecole National Superieur d'Ingernieurs Tunis"]
+    }
+]}
